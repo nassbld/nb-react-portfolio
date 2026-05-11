@@ -12,6 +12,7 @@ export const translations = {
         hero: {
             greeting: "Bonjour, je suis",
             cta: "Voir mes projets",
+            languages: ["🇫🇷 Natif", "🇲🇦 Natif", "🇬🇧 C1 — TOEIC 950/990"],
         },
         sections: {
             projects: { label: "Ce que j'ai construit", title: "Projets" },
@@ -88,10 +89,12 @@ export const translations = {
         skills: {
             category: {
                 languages: "Langages",
-                frameworks: "Frameworks",
-                architecture: "Architectures & Méthodologies",
-                databases: "Bases de données",
-                tools: "Outils"
+                infrastructure: "Infrastructure & Cloud",
+                tooling: "Systèmes & Tooling",
+                methods: "Méthodes",
+                operations: "Opérations",
+                frontend: "Frontend",
+                ai: "IA",
             }
         },
         footer: {
@@ -115,6 +118,7 @@ export const translations = {
         hero: {
             greeting: "Hi, I'm",
             cta: "See my projects",
+            languages: ["🇫🇷 Native", "🇲🇦 Native", "🇬🇧 C1 — TOEIC 950/990"],
         },
         sections: {
             projects: { label: "What I've built", title: "Projects" },
@@ -193,10 +197,12 @@ export const translations = {
         skills: {
             category: {
                 languages: "Languages",
-                frameworks: "Frameworks",
-                architecture: "Architectures & Methodologies",
-                databases: "Databases",
-                tools: "Tools"
+                infrastructure: "Infrastructure & Cloud",
+                tooling: "Systems & Tooling",
+                methods: "Methods",
+                operations: "Operations",
+                frontend: "Frontend",
+                ai: "AI",
             }
         },
         footer: {

@@ -8,10 +8,12 @@ export default function SkillsSection() {
 
     const categories = [
         { label: t.skills.category.languages, data: skills.languages },
-        { label: t.skills.category.frameworks, data: skills.frameworks },
-        { label: t.skills.category.architecture, data: skills.architecture },
-        { label: t.skills.category.databases, data: skills.databases },
-        { label: t.skills.category.tools, data: skills.tools },
+        { label: t.skills.category.infrastructure, data: skills.infrastructure },
+        { label: t.skills.category.tooling, data: skills.tooling },
+        { label: t.skills.category.methods, data: skills.methods },
+        { label: t.skills.category.operations, data: skills.operations },
+        { label: t.skills.category.frontend, data: skills.frontend },
+        { label: t.skills.category.ai, data: skills.ai },
     ];
 
     return (

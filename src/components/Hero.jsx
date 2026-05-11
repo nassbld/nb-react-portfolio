@@ -16,6 +16,11 @@ export default function Hero() {
                 <h2 className="text-2xl md:text-3xl font-semibold text-gray-300">
                     {t.personal.title}
                 </h2>
+                <div className="flex flex-wrap gap-2">
+                    {t.hero.languages.map((lang) => (
+                        <span key={lang} className="text-sm text-gray-400 bg-[#1a1a1a] border border-[#2a2a2a] px-3 py-1 rounded-full">{lang}</span>
+                    ))}
+                </div>
                 <p className="text-gray-400 text-lg leading-relaxed max-w-2xl whitespace-pre-line">
                     {t.personal.about}
                 </p>

@@ -12,11 +12,13 @@ export const personal = {
 };
 
 export const skills = {
-    languages: ["Java", "JavaScript", "TypeScript", "NodeJS"],
-    frameworks: ["Spring Boot", "ReactJS", "React-Native", "Angular", "NextJS", "Expo", "Tailwind", "Hibernate"],
-    architecture: ["Microservices", "API REST", "Domain-Driven Development (DDD)", "Agile (SCRUM)", "Test-Driven Development (TDD)", "API Gateway", "Backend for Frontend (BFF)"],
-    databases: ["PostgreSQL", "MySQL", "MongoDB", "Firebase", "Supabase"],
-    tools: ["Docker", "Kubernetes", "Gitlab", "Github", "Postman", "Figma", "Vercel", "Google Cloud", "Oracle"],
+    languages: ["Java (Spring Boot)", "JavaScript", "TypeScript", "NodeJS"],
+    infrastructure: ["Kubernetes", "Docker", "IBM Cloud", "AWS"],
+    tooling: ["GitLab / GitHub (CI/CD)", "Postman", "Jira"],
+    methods: ["Microservices", "RabbitMQ", "Kafka", "Distributed Systems", "TDD", "Domain-Driven Design (DDD)", "Agile (SCRUM)"],
+    operations: ["CI/CD Automation", "System Resilience", "Scalability", "API Gateway"],
+    frontend: ["Angular", "React", "HTML/CSS", "React Native", "Expo"],
+    ai: ["Claude Code", "ChatGPT (Codex)", "Gemini", "Cursor", "Obsidian"],
 };
 
 export const experiences = [
