@@ -99,7 +99,7 @@ export const translations = {
         },
         personal: {
             title: "Développeur Full-Stack",
-            about: "Développeur Full-Stack spécialisé en Java (Spring Boot) & React, avec une solide expertise en microservices, CI/CD et gestion de projet agile. Curieux et passionné, j'aime explorer de nouvelles technologies et repousser mes limites pour concevoir des solutions performantes et élégantes.\n\n \"Je passe mon temps à faire ce que je ne sais pas faire, pour apprendre à le faire.\" - Pablo Picasso",
+            about: "Développeur Full-Stack spécialisé en Java (Spring Boot) & Angular, avec une solide expertise en microservices, CI/CD et gestion de projet agile. Curieux et passionné, j'aime explorer de nouvelles technologies et repousser mes limites pour concevoir des solutions performantes et élégantes.\n\n \"Je passe mon temps à faire ce que je ne sais pas faire, pour apprendre à le faire.\" - Pablo Picasso",
         },
     },
     en: {
@@ -143,7 +143,7 @@ export const translations = {
         },
         experiences: {
             1: {
-                role: "Full-Stack Developer",
+                role: "Software Engineer",
                 contract: "Apprenticeship then Permanent contract",
                 date: "Sept. 2022 – Apr. 2026",
                 tasks: [
@@ -204,7 +204,7 @@ export const translations = {
         },
         personal: {
             title: "Software Engineer",
-            about: "Full-Stack Developer specialized in Java (Spring Boot) & React, with strong expertise in microservices, CI/CD and agile project management. Curious and passionate, I love exploring new technologies and pushing my limits to build performant and elegant solutions.\n\n \"I am always doing what I cannot do yet, in order to learn how to do it.\" - Pablo Picasso",
+            about: "Software Engineer specialized in Java (Spring Boot) & Angular, with strong expertise in microservices, CI/CD and agile project management. Curious and passionate, I love exploring new technologies and pushing my limits to build performant and elegant solutions.\n\n \"I am always doing what I cannot do yet, in order to learn how to do it.\" - Pablo Picasso",
         },
     },
 };
