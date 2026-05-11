@@ -12,7 +12,11 @@ export const translations = {
         hero: {
             greeting: "Bonjour, je suis",
             cta: "Voir mes projets",
-            languages: ["🇫🇷 Natif", "🇲🇦 Natif", "🇬🇧 C1 — TOEIC 950/990"],
+            languages: [
+                { flag: "fr", label: "Natif" },
+                { flag: "ma", label: "Natif" },
+                { flag: "gb", label: "C1 — TOEIC 950/990" },
+            ],
         },
         sections: {
             projects: { label: "Ce que j'ai construit", title: "Projets" },
@@ -118,7 +122,11 @@ export const translations = {
         hero: {
             greeting: "Hi, I'm",
             cta: "See my projects",
-            languages: ["🇫🇷 Native", "🇲🇦 Native", "🇬🇧 C1 — TOEIC 950/990"],
+            languages: [
+                { flag: "fr", label: "Native" },
+                { flag: "ma", label: "Native" },
+                { flag: "gb", label: "C1 — TOEIC 950/990" },
+            ],
         },
         sections: {
             projects: { label: "What I've built", title: "Projects" },

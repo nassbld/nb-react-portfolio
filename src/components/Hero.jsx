@@ -18,7 +18,10 @@ export default function Hero() {
                 </h2>
                 <div className="flex flex-wrap gap-2">
                     {t.hero.languages.map((lang) => (
-                        <span key={lang} className="text-sm text-gray-400 bg-[#1a1a1a] border border-[#2a2a2a] px-3 py-1 rounded-full">{lang}</span>
+                        <span key={lang.flag} className="flex items-center gap-2 text-sm text-gray-400 bg-[#1a1a1a] border border-[#2a2a2a] px-3 py-1 rounded-full">
+                            <img src={`https://flagcdn.com/20x15/${lang.flag}.png`} alt={lang.flag} className="rounded-sm" />
+                            {lang.label}
+                        </span>
                     ))}
                 </div>
                 <p className="text-gray-400 text-lg leading-relaxed max-w-2xl whitespace-pre-line">
@@ -32,6 +35,10 @@ export default function Hero() {
                     <a href={personal.contact.linkedin} target="_blank" rel="noopener noreferrer"
                        className="border border-[#2a2a2a] hover:border-[#fe5200] text-gray-300 hover:text-white font-semibold px-6 py-3 rounded-lg transition-colors duration-200">
                         LinkedIn
+                    </a>
+                    <a href={personal.contact.github} target="_blank" rel="noopener noreferrer"
+                       className="border border-[#2a2a2a] hover:border-[#fe5200] text-gray-300 hover:text-white font-semibold px-6 py-3 rounded-lg transition-colors duration-200">
+                        GitHub
                     </a>
                 </div>
                 <div className="mt-16 flex items-center gap-2 text-gray-600 text-sm animate-bounce">
