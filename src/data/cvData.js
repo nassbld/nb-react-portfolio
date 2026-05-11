@@ -44,7 +44,7 @@ export const experiences = [
     {
         id: 2,
         role: "Formateur Développement Web",
-        company: "GEMA, EFREI",
+        company: "Nexa Digital School & GEMA Groupe",
         type: "Freelance",
         date: "Juin 2025 - Mars 2026",
         tasks: [
